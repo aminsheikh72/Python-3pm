@@ -257,10 +257,10 @@
 # 1234
 # 12345
 # Answer:
-for i in range(1,6):
-    for j in range(i):
-        print(j + 1,end="")
-    print()
+# for i in range(1,6):
+#     for j in range(i):
+#         print(j + 1,end="")
+#     print()
 # 24. Repeated Number Pattern
 # 1
 # 22
@@ -287,11 +287,12 @@ for i in range(1,6):
 # *****
 # *****
 # Answer:
-
 # for i in range(1,6):
 #     for j in range(1,6):
 #         print("*",end="")
 #     print()
+
+
  
 # 27. Number Grid
 # 12345
@@ -304,20 +305,19 @@ for i in range(1,6):
 #     for j in range(1,6):
 #         print(j,end="")
 #     print()
- 
 
 # Ek string lo aur for loop ka use karke har character ko alag-alag line me print karo.
-# str = input("Enter a string")
-# for i in str:
+# name = "eskills"
+# for i in name:
 #     print(i)
 
-#
+
 # Ek string me total characters count karo.
 # Example: "Hello" → 5
-# str = "hello"
 # count = 0
-# for i in str:
-#     count += 1
+# name ="eskills"
+# for i in name:
+#     count +=1
 
 # print(count)
 
@@ -330,6 +330,7 @@ for i in range(1,6):
 #     if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
 #         count +=1
         
+
 # print(count)
         
 
@@ -350,8 +351,8 @@ for i in range(1,6):
 # count = 0
 # for i in name:
 #     if i == " ":
-#         count += 1
-        
+#         count +=1
+
 # print(count)
 
 
@@ -360,16 +361,39 @@ for i in range(1,6):
 # str = input("Enter a string : ")
 # count = 0
 # for i in str:
-#     if char == i:
+#     if i == char:
 #         count +=1
 
 # print(count)
 
+
 # Ek string me uppercase characters count karo.
 
 # Example: "Hello PYTHON" → 6
+# name = "HEllo WOrld"
+# count = 0
+# for i in name:
+#     if i.isupper():
+#         count +=1
+
+# print(count)
+
+
 # Ek string me digits count karo.
 # Example: "Python123" → 3
+# name = "python123"
+# count = 0
+# for i in name:
+#     if i.isdigit():
+#         count +=1
+
+# print(count)
+
 # for loop ka use karke string ko reverse karo.
 # Example: "Python" → "nohtyP"
-# Ek string me vowels aur consonants dono count karo aur result print karo.
+# name = "eskills"
+# rev = "e"
+# for i in name:
+#     rev = i + rev
+
+# print(rev)
